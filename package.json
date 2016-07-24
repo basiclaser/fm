@@ -1,0 +1,25 @@
+{
+  "name": "fm",
+  "version": "1.0.0",
+  "description": "minimal events / state solution",
+  "main": "fm.js",
+  "scripts": {
+    "test": "standard && mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [
+    "event",
+    "observer",
+    "pubsub",
+    "redux"
+  ],
+  "author": "Christopher Shelley <dont@forgetmy.email>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^7.1.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.0"
+  }
+}
