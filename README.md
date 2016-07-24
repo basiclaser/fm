@@ -35,7 +35,7 @@ fm('saveThis', 'triggered!!')
 
 __set__ / __update__ the store's 'fieldNameExample' value.
   ```
-  const currentCakes = ["strawberry", "double chocolate"];
+const currentCakes = ["strawberry", "double chocolate"];
 fm('cakes', currentCakes);
   ```
 ### `fm([fieldNameExample], callback)`
@@ -54,8 +54,7 @@ function catCallback(cats){
 ```
 
 ### `fm('fieldNameExample')`
-
-__trigger__ - Will broadcast any observer of that current frequency.
+__trigger__ - Will trigger callbacks for any observer of that namespace, with the field's current value if it exists.
 ```
 fm()
 { observers: { '123': [ [Function: onchange] ], fm_observe_all: [] },
