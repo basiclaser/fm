@@ -18,7 +18,6 @@ This was made as part of a tutorial exploring how to build a framework, the poin
 
 ```
 npm install fmjs
-
 ```
 ## Add it to your project
 ```
