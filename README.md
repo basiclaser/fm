@@ -5,12 +5,11 @@
 
 __fm__ is a framework that doesn't stop you from programming.<br>
 It does two modern frameworky things:
-1. __custom events__ - listen for and trigger functions with optional data. ( [observer pattern concept](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) )
-2. __state container__ - Save your app data in one convenient store. ( [redux flux pattern concept](http://redux.js.org/) )
-
+1. __state container__ - save your app data in one convenient mutable store. ( [redux flux pattern concept](http://redux.js.org/) )
+2. __custom events__ - listen for and trigger events, along with optional updated data. ( [observer pattern concept](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) )
 
 __fm__ combines these two concepts into a very minimal API. <br>
-The whole project is under 60 lines, so if you don't like it, please change it!
+The whole project is 50 lines, so if you don't like it, please branch your own version.
 <!--
 This was made as part of a tutorial exploring how to build a framework, the point of which is that we should learn to code first and not rely on frameworks as much - let's be programmers, not 'angular people' or 'react people'. __Read it here:__ [Build your own javascript framework!](http://system-art.io/fm) -->
 
