@@ -81,4 +81,4 @@ install mocha
 ```
 npm install mocha -g
 ```
-and then run `mocha` in the project's root directory
+and then run `npm run test` in the project's root directory
