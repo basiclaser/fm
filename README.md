@@ -3,8 +3,8 @@
 
 # fm
 
-__fm__ is a framework that doesn't stop you from learning how to program.<br>
-It does two handy things modern frameworks do:
+__fm__ is a framework that doesn't stop you from programming.<br>
+It does two modern frameworky things:
 1. __custom events__ - listen for and trigger functions with optional data. ( [observer pattern concept](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) )
 2. __state container__ - Save your app data in one convenient store. ( [redux flux pattern concept](http://redux.js.org/) )
 
@@ -73,11 +73,11 @@ fm()
   store: {
      '123': 'hello again',
      '345': 'jqoejeojqweoij qowiej qwoeijq woeijqwe oiqwje owqeij'
-  } 
+  }
 }
 ```
 
-##run the test
+## run the test
 install mocha
 ```
 npm install mocha -g

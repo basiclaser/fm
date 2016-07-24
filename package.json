@@ -18,8 +18,9 @@
   "author": "Christopher Shelley <dont@forgetmy.email>",
   "license": "MIT",
   "devDependencies": {
-    "standard": "^7.1.1",
+    "expect": "^1.20.2",
     "expect.js": "^0.3.1",
-    "mocha": "^2.5.0"
+    "mocha": "^2.5.0",
+    "standard": "^7.1.1"
   }
 }
