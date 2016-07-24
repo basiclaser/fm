@@ -3,7 +3,7 @@
 
 # fm
 
-__fm__ is a framework that doesn't stop you from programming.<br>
+__fm__ is a framework that doesn't stop you from learning how to program.<br>
 It does two handy things modern frameworks do:
 1. __custom events__ - listen for and trigger functions with optional data. ( [observer pattern concept](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) )
 2. __state container__ - Save your app data in one convenient store. ( [redux flux pattern concept](http://redux.js.org/) )
@@ -42,7 +42,7 @@ fm('cakes', currentCakes);
 
 __subscribe__ / __unsubscribe__ to the store's 'fieldNameExample' field, and invoke the callback automatically if the value is changed. The changed value will be passed as the first argument.<br>
 Omit the field name and the callback will be called on every fm store value change.<br>
-This simple API means that it is impossible to set a function as the value of a store field.
+This simple API means that it is impossible to set a function directly as the value of a store field.
 ```
 fm('cats', catCallback)
 
@@ -56,22 +56,25 @@ function catCallback(cats){
 ### `fm('fieldNameExample')`
 __trigger__ - Will trigger callbacks for any observer of that namespace, with the field's current value if it exists.
 ```
-fm()
-{ observers: { '123': [ [Function: onchange] ], fm_observe_all: [] },
-  store:
-   { '123': 'hello again',
-     '345': 'jqoejeojqweoij qowiej qwoeijq woeijqwe oiqwje owqeij' } }
+function observingEverything(el) {
+  console.log(el)
+}
+fm(observingEverything)
+fm('nonExistentField')
+// will trigger, but not return any values as we didn't set a value for that field.
 ```
 
 ### `fm()`
 
-__get store__ - Will return your current store collection and observers collection.
+__return everything__ - Will return your current store collection and observers collection.
 ```
 fm()
 { observers: { '123': [ [Function: onchange] ], fm_observe_all: [] },
-  store:
-   { '123': 'hello again',
-     '345': 'jqoejeojqweoij qowiej qwoeijq woeijqwe oiqwje owqeij' } }
+  store: {
+     '123': 'hello again',
+     '345': 'jqoejeojqweoij qowiej qwoeijq woeijqwe oiqwje owqeij'
+  } 
+}
 ```
 
 ##run the test

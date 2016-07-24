@@ -7,7 +7,7 @@
     "test": "standard && mocha test.js"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "keywords": [
     "event",
