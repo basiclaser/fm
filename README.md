@@ -40,7 +40,7 @@ fm('cakes', currentCakes);
 ### `fm([fieldNameExample], callback)`
 
 __subscribe__ / __unsubscribe__ to the store's 'fieldNameExample' field, and invoke the callback automatically if the value is changed. The changed value will be passed as the first argument.<br>
-Omit the field name and the callback will be called on every fm store value change.<br>
+Omit the field name to observe all events.<br>
 This simple API means that it is impossible to set a function directly as the value of a store field.
 ```
 fm('cats', catCallback)
