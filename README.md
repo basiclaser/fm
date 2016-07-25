@@ -4,7 +4,7 @@
 
 # fm
 
-__fm__ is a framework with a super minimal API that doesn't stop you from programming.<br>
+__fm__ is a framework with a super minimal API that doesn't stop you programming.<br>
 It does two modern frameworky things:
 
 1. __state container__ - save your app data in one convenient mutable store. ( [redux flux pattern concept](http://redux.js.org/) )
