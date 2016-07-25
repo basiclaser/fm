@@ -5,11 +5,13 @@
 # fm
 
 __fm__ is a framework with a super minimal API that doesn't stop you from programming.<br>
-It does two modern frameworky things:<br>
+It does two modern frameworky things:
+
 1. __state container__ - save your app data in one convenient mutable store. ( [redux flux pattern concept](http://redux.js.org/) )
 2. __custom events__ - listen for and trigger events, along with optional updated data. ( [observer pattern concept](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) )
 
-It's essentially an observer with a singleton model.<br>
+It's essentially an observer with a singleton model.
+
 The whole project is 50 lines, so if you don't like it, please improve your own version of it.<br>
 
 If you'd like to build this framework from scratch yourself, there is a tutorial.
