@@ -1,7 +1,7 @@
 {
   "name": "fm",
   "version": "1.0.0",
-  "description": "minimal events / state solution",
+  "description": "a framework that doesn't stop you programming",
   "main": "fm.js",
   "scripts": {
     "test": "standard && mocha test.js"
@@ -13,6 +13,9 @@
     "event",
     "observer",
     "pubsub",
+    "singleton",
+    "event emitter",
+    "store",
     "redux"
   ],
   "author": "Christopher Shelley <dont@forgetmy.email>",
