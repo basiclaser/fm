@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/basiclaser/fm)](https://travis-ci.org/basiclaser/fm)
+[![Build Status](https://travis-ci.org/basiclaser/fm.svg?branch=master)](https://travis-ci.org/basiclaser/fm)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![rethink.js](https://img.shields.io/badge/rethink-js-yellow.svg)](https://github.com/rethinkjs/manifest)
 
