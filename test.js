@@ -33,7 +33,7 @@ describe('fm', function () {
   })
 
   it('should be able to observe everything', function (done) {
-    fm(function(){done()})
+    fm(function () { done() })
     fm('test5')
   })
 })

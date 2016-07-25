@@ -1,6 +1,18 @@
 {
   "name": "fm",
   "version": "1.0.0",
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  },
   "description": "a framework that doesn't stop you programming",
   "main": "fm.js",
   "scripts": {
