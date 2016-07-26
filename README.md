@@ -1,24 +1,17 @@
 [![Build Status](https://travis-ci.org/basiclaser/fm.svg?branch=master)](https://travis-ci.org/basiclaser/fm)
-[![Dependencies](https://travis-ci.org/basiclaser/fm.svg?branch=master)](https://travis-ci.org/basiclaser/fm)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![rethink.js](https://img.shields.io/badge/rethink-js-yellow.svg)](https://github.com/rethinkjs/manifest)
 
 # fm
 
-__fm__ is a framework with a super minimal API that doesn't stop you programming.<br>
+__fm__ is a framework with a super minimal API and dangerous global state.
 It does two modern frameworky things:
 
 1. __state container__ - save your app data in one convenient mutable store. ( [redux flux pattern concept](http://redux.js.org/) )
 2. __custom events__ - listen for and trigger events, along with optional updated data. ( [observer pattern concept](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript) )
 
-It's essentially an observer with a singleton model.
+It's essentially an observer with a singleton global model.
 
-The whole project is 50 lines, so if you don't like it, please improve your own version of it.<br>
-
-If you'd like to build this framework from scratch yourself, there is a tutorial.
-<!--
-This was made as part of a tutorial exploring how to build a framework, the point of which is that we should learn to code first and not rely on frameworks as much - let's be programmers, not 'angular people' or 'react people'. __Read it here:__ [Build your own javascript framework!](http://system-art.io/fm)
--->
 
 ## Installation
 
