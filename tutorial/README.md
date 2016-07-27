@@ -1,3 +1,6 @@
+## Let’s build a javascript web application framework
+ ##### This is a totally free and open source tutorial for javascript programmers that have already completed a course like (codecademy)[https://www.codecademy.com/learn/javascript]. If you find mistakes please let me know!
+
 ## welcome !
 
 This tutorial comes in a few self-contained parts, each covering important ideas. At the end of each part you will have a useful framework for building projects. The goal is to understand the why and how of common fundamental patterns and techniques inside frameworks before diving in at the deep end into a framework which does everything for you.
