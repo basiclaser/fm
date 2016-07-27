@@ -9,14 +9,14 @@ In each chapter you will learn helpful concepts and finish a useable javascript 
 
 Chapters:
 #### 1. A Naive Framework - we implement our first framework, and discuss how to improve it.
-* A better Framework - we rebuild chapter 1 into event & model reactive modules, and learn some important lessons on the way.
-* better model component - we design a safer API for interacting  state and make a browser localstorage module
-* Templating Component - for rendering our application.
-* Let's build an App - we take our framework for a drive ( eisenhower or fm npm)
-* Routing / History - we make our framework more user friendly by harnessing browser features
-* AJAX  - Communicating with other APIs
-* Testing & TDD -
-* Basic Deployment -
+#### 2. A better Framework - we rebuild chapter 1 into event & model reactive modules, and learn some important lessons on the way.
+#### 3. better model component - we design a safer API for interacting  state and make a browser localstorage module
+#### 4. Templating Component - for rendering our application.
+#### 5. Let's build an App - we take our framework for a drive ( eisenhower or fm npm)
+#### 6. Routing / History - we make our framework more user friendly by harnessing browser features
+#### 7. AJAX  - Communicating with other APIs
+#### 8. Testing & TDD -
+#### 9. Basic Deployment -
 
 ## Why should I follow this tutorial?
 Many starting web developers are duped into thinking that learning frameworks is learning how to program. There is often no distinction made between the two. However this is untrue.
