@@ -9,10 +9,7 @@ In the first chapter we will:
 
 3. Then we will pick a small project and analyse the requirements, and make our first simple attempt at providing a small framework for that project.
 
-4. Make our first attempt at making a framework.
-
-5. At the end of each part, there is a small reading list to expose you to some relevant javascript concepts, which I strongly recommend checking out!
-
+4. Make our first attempt at making a quick framework under 60 lines.
 ---
 
 Just for some perspective, here’s a matrix of common problems that frameworks try to solve: 
