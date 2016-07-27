@@ -2,6 +2,7 @@
 
 
 In the first chapter we will:
+
 1. Talk about design patterns and inheritance, the two major lessons generally missing between ‘programming day 1’ and ‘junior javascript developer for hire’. 
 
 2. We’ll quickly look at the most common problems popular javascript web frameworks solve.
